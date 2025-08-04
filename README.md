@@ -1,57 +1,98 @@
 
 
-🌾 Agriculture Data Insights Dashboard
-“❤️ If you eat today, thank a farmer 👨‍🌾🌽”
+🌾 ICRISAT Agriculture Analytics Dashboard
+❤️ “If you eat today, thank a farmer.” 👨‍🌾🌱🌽
 
-Analyze 50+ years of Indian agriculture data using Python, SQL, Streamlit, and Power BI.
+A full-stack data analytics project exploring 50+ years of Indian crop data using EDA, SQL analytics, and interactive dashboards via Streamlit and Power BI.
 
-🚀 What's Inside
-📊 EDA in Python: Histograms, heatmaps, pie charts
+📌 Project Summary
+Category	Description
+📁 Dataset	ICRISAT District-Level Agriculture Dataset (1966 onwards)
+🧪 Tools Used	Python (Pandas, Seaborn, Matplotlib), PostgreSQL, SQLAlchemy
+📊 Dashboards	Built with Streamlit (Web UI) and Power BI (Business Intelligence visuals)
+📈 Focus Areas	Crop yield trends, top producing states, year-wise analysis, heatmaps
 
-🧮 SQL Insights: Top states, yearly trends, yield rankings
+🧠 Key Features
+🔍 Exploratory Data Analysis (EDA)
+Histograms, pie charts, and heatmaps
 
-🌐 Streamlit App: Interactive dashboards with filters
+Crop-wise area, yield, and production over time
 
-📈 Power BI Report: Visual storytelling with slicers & maps
+Top crops by state and district
 
-🧰 Tech Stack
-Python (Pandas, Matplotlib, Seaborn)
+🧮 SQL-Based Insights
+Year-over-year trends
 
-PostgreSQL + SQLAlchemy
+State/district production rankings
 
-Streamlit
+Yield efficiency calculations
 
-Power BI
+Crop contribution % by state
+
+💻 Interactive Dashboards
+Streamlit: Real-time SQL output with filter controls
+
+Power BI: Professionally designed reports with slicers & maps
 
 📂 Project Structure
-graphql
+bash
 Copy
 Edit
-├── data/               # Raw dataset (.xlsx)
-├── eda/                # EDA plots in Python
-├── sql/                # PostgreSQL queries
-├── streamlit_app/      # Streamlit dashboard
-├── powerbi/            # Power BI report (.pbix)
-▶️ Run Locally
+📦 Agriculture-ICRISAT-Dashboard/
+│
+├── data/                 # Excel dataset (raw)
+├── eda/                  # EDA notebooks with plots
+├── sql/                  # PostgreSQL queries
+├── streamlit_app/        # Streamlit dashboard
+├── powerbi/              # Power BI .pbix file
+├── requirements.txt      # Python dependencies
+└── README.md             # This file
+⚙️ Setup Instructions
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/agriculture-dashboard.git
+cd agriculture-dashboard
+2️⃣ Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-streamlit run streamlit_app/app.py
-⚠️ Update your DB connection string in app.py.
+3️⃣ Run Streamlit App
+bash
+Copy
+Edit
+cd streamlit_app
+streamlit run app.py
+⚠️ Note: Update your PostgreSQL connection string in app.py before running.
 
-📷 Previews
-Streamlit	Power BI
+🖼️ Sample Visuals
+Histogram (Wheat Yield)	Correlation Heatmap
 
-📚 Data Source
-ICRISAT District-Level Agriculture Dataset
-(Crop-wise area, production, yield from 1966 onwards)
+Streamlit SQL Output	Power BI Crop Dashboard
 
-🤝 Connect
-Made with 💚 by Santhana Lakshmi
-🔗 LinkedIn • 🌐 GitHub • ✉️ Email
+📚 Dataset Details
+Source: ICRISAT District-Level Data
 
-Let me know if you'd like this in .md format or want image links set up.
-❤️ Acknowledgment
-“If you eat today, thank a farmer” 👨‍🌾🌾🌽
+Fields: Area, Production, Yield
 
+Time Period: 1966 onward
+
+Crops Covered: Rice, Wheat, Oilseeds, Sugarcane, Sunflower, and more
+
+Regions: Indian states and districts
+
+🙏 Acknowledgments
+Thanks to:
+
+ICRISAT for the publicly available agriculture data
+
+All the farmers across India who made this data possible
+
+Open-source tools powering this project
+
+👩‍💻 Author
+Santhana Lakshmi
+📧 your-email@example.com
+🌐 GitHub • LinkedIn
