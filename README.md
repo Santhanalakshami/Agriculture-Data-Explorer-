@@ -1,106 +1,57 @@
-🌾 ICRISAT Agriculture Data Analysis Dashboard
-📌 Overview
-This project explores the ICRISAT District-Level Agriculture Dataset to perform comprehensive Exploratory Data Analysis (EDA) and generate insightful SQL-based analytics. The results are visualized via interactive Streamlit and Power BI dashboards.
 
-The dataset includes information on crop area, production, and yield for major crops like rice, wheat, oilseeds, and sugarcane across Indian districts from 1966 onwards.
 
-├── data/
-│   └── ICRISAT-District Level Data.xlsx
-├── eda/
-│   └── eda_plots.ipynb              # Histogram, heatmap, pie charts, etc.
-├── sql/
-│   └── agriculture_data.sql      # PostgreSQL queries for analysis
-├── streamlit_app/
-│   └── eda.py                       # Streamlit dashboard code
-├── powerbi/
-│   └── sqlpbix ,edapbix              # Power BI dashboard file
-├── requirements.txt
-├── README.md
+🌾 Agriculture Data Insights Dashboard
+“❤️ If you eat today, thank a farmer 👨‍🌾🌽”
 
-📊 Key Features
-✅ EDA Highlights (Python & Pandas/Matplotlib/Seaborn)
-Distribution histograms for crop yield and production
+Analyze 50+ years of Indian agriculture data using Python, SQL, Streamlit, and Power BI.
 
-Correlation heatmaps across crop metrics
+🚀 What's Inside
+📊 EDA in Python: Histograms, heatmaps, pie charts
 
-Top-N state-wise crop production visualizations
+🧮 SQL Insights: Top states, yearly trends, yield rankings
 
-District and year-wise trends
+🌐 Streamlit App: Interactive dashboards with filters
 
-✅ SQL Analysis (PostgreSQL)
-Top producing states by crop and year
+📈 Power BI Report: Visual storytelling with slicers & maps
 
-Year-over-year production trends
-
-Yield efficiency by state
-
-Crop contribution % by region
-
-✅ Streamlit Dashboard
-📈 Multiple pages for EDA plots and SQL query visualizations
-
-🔍 Filtering by year, state, and crop
-
-💾 Connected to PostgreSQL database via SQLAlchemy
-
-🌐 Hosted with Streamlit Cloud
-
-✅ Power BI Dashboard
-📌 Visual storytelling with slicers, KPIs, and maps
-
-🎯 Supports both EDA visuals and SQL analytics
-
-📎 Import of PostgreSQL queries via DirectQuery
-
-🧪 Technologies Used
+🧰 Tech Stack
 Python (Pandas, Matplotlib, Seaborn)
 
-PostgreSQL (for analytics queries)
+PostgreSQL + SQLAlchemy
 
-Streamlit (interactive dashboard)
+Streamlit
 
-Power BI (BI visualization)
+Power BI
 
-SQLAlchemy (for Python-PostgreSQL connection)
-
-🚀 Getting Started
-🔧 Requirements
-Install required Python libraries:
-
+📂 Project Structure
+graphql
+Copy
+Edit
+├── data/               # Raw dataset (.xlsx)
+├── eda/                # EDA plots in Python
+├── sql/                # PostgreSQL queries
+├── streamlit_app/      # Streamlit dashboard
+├── powerbi/            # Power BI report (.pbix)
+▶️ Run Locally
 bash
 Copy
 Edit
 pip install -r requirements.txt
-▶️ Run the Streamlit App
-bash
-Copy
-Edit
-cd streamlit_app
-streamlit run eda.py
-⚠️ Make sure your PostgreSQL database is up and the connection string is correct in your app.py.
+streamlit run streamlit_app/app.py
+⚠️ Update your DB connection string in app.py.
 
-📎 Power BI Dashboard
-To view the Power BI dashboard:
+📷 Previews
+Streamlit	Power BI
 
-Open the dashboard.pbix file using Power BI Desktop.
+📚 Data Source
+ICRISAT District-Level Agriculture Dataset
+(Crop-wise area, production, yield from 1966 onwards)
 
-Ensure database connection points to your local or cloud PostgreSQL server.
+🤝 Connect
+Made with 💚 by Santhana Lakshmi
+🔗 LinkedIn • 🌐 GitHub • ✉️ Email
 
-Refresh to see updated charts.
-
-📷 Sample Visuals
-<details> <summary>📊 Click to expand</summary>
-EDA Histogram	Correlation Heatmap
-
-Streamlit SQL Output	Power BI Crop Analysis
-
-</details>
-📁 Dataset Source
-ICRISAT District Level Dataset
-Provided as an .xlsx file containing crop-wise data by district and year.
-
-Dataset License: [Include license or data terms if applicable]
-
+Let me know if you'd like this in .md format or want image links set up.
 ❤️ Acknowledgment
 “If you eat today, thank a farmer” 👨‍🌾🌾🌽
 
