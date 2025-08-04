@@ -83,16 +83,3 @@ Crops Covered: Rice, Wheat, Oilseeds, Sugarcane, Sunflower, and more
 
 Regions: Indian states and districts
 
-🙏 Acknowledgments
-Thanks to:
-
-ICRISAT for the publicly available agriculture data
-
-All the farmers across India who made this data possible
-
-Open-source tools powering this project
-
-👩‍💻 Author
-Santhana Lakshmi
-📧 your-email@example.com
-🌐 GitHub • LinkedIn
