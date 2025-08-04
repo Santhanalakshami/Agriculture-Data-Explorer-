@@ -7,6 +7,8 @@ This project delivers an interactive analytical dashboard built using Streamlit,
 🧠 SQL Query Mode with auto-visualization
 📊 Power BI Dashboard for high-level business analysis
 📉 Insightful charts: rice yield, oilseed trends, wheat performance, and more
+
+
 📂 Folder Layout
 ├── dashboard.py # Streamlit app with two modes
 ├── eda.ipynb # Notebook for data exploration
@@ -15,11 +17,8 @@ This project delivers an interactive analytical dashboard built using Streamlit,
 ├── requirements.txt # Dependencies
 └── data/ # CSV file location 
 
+
 🚀 Get Started
-1. Clone the Repo
-```bash
-git clone https://github.com/your-username/agriviz.git
-cd agriviz
 
 pip install -r requirements.txt
 
@@ -29,6 +28,7 @@ streamlit run eda.py
 Mode 1: 📁 CSV Explorer
 Visualize histograms, correlations, top producers
 Works with cleaned .csv data locally
+
 Mode 2: 📊 SQL Explorer
 Choose from 10 preloaded queries (e.g., rice trends, maize yield)
 Dynamic charts via Matplot,Seaborn
@@ -39,6 +39,7 @@ To view EDA.pbix, use Power BI Desktop. It mirrors the SQL-based insights and of
 🧠 Data Source
 ICRISAT Open Data Platform
 District-level agricultural data (crops, area, yield, production)
+
 🤝 Credits
 Developed by Santhanalakshmi, with support from Streamlit, PostgreSQL, and the open ICRISAT dataset.
 
