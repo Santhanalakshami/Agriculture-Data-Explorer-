@@ -1,6 +1,7 @@
 🌱 Agricultural Insights Dashboard – Powered by ICRISAT Data
 This project delivers an interactive analytical dashboard built using Streamlit, PostgreSQL, and Power BI, aimed at understanding trends and performance in Indian agriculture. The data originates from the ICRISAT district-level database.
 
+
 📌 Key Highlights
 📁 CSV-based EDA Mode (via Jupyter & Streamlit)
 🧠 SQL Query Mode with auto-visualization
