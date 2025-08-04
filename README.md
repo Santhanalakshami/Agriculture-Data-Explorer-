@@ -10,7 +10,7 @@ This project delivers an interactive analytical dashboard built using Streamlit,
 
 
 📂 Folder Layout
-├── dashboard.py # Streamlit app with two modes
+├── eda.py # Streamlit app with two modes
 ├── eda.ipynb # Notebook for data exploration
 ├── agriculture_data.sql # Raw SQL queries used in dashboard
 ├── EDA.pbix,sql.pbix # Power BI file (open with Power BI Desktop)
